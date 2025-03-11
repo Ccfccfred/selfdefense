@@ -1,0 +1,12 @@
+ *{scroll-behavior: smooth;
+      font-size: 1.5rem;
+    background-color: #5E5E5E;
+ }
+   p{
+    font-family:fantasy;
+    font-size: 125%;
+    line-height: 1.25;
+    word-spacing: -15%;
+    color: violet;
+}
+       
