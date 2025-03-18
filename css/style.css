@@ -52,7 +52,7 @@ header {
   .image-container {
     position: relative; /* set container to a relative position */
     margin-left:2% ;
-    margin-right: 50%;
+    margin-right: 40%;
     /* width: 100%; /* set your desired width */
   /*  height: auto; /* set your desired height */
     
@@ -71,7 +71,7 @@ width: 100%;
    color: #fff; /* set your desired text color */
    border: none; /* remove button border */
    width:100% ; /* set the desired width */
-   height: 60px; /* set the desired height */
+   height: 70px; /* set the desired height */
    padding: 1%; /* set your desired padding */
    cursor: pointer; /* change mouse cursor on hover */
    font-family: 'hermeneus-one',serif;
