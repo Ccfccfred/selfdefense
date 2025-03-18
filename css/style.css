@@ -6,10 +6,16 @@
   font-style: normal;
 }
 
-
+@import url('https://fonts.cdnfonts.com/css/hermeneus-one');
+.hermeneus-one{
+  font-family: 'hermeneus-one';
+  font-weight: 200;
+  font-style: normal;
+}
 *{scroll-behavior: smooth;
       font-size: 1.5rem;
  }
+
 header {
   background: #7EA6C4;
   width: 110%;
@@ -37,11 +43,13 @@ header {
   body{background-color: #5e5e5e;}
    
   p{
-    font-family:fantasy;
+    font-family: 'hermeneus-one', sans-serif;
+    src: url('/fonts/HermeneusOne-Regular.ttf');
     font-size:  75%;
     line-height: 1.25;
     word-spacing: -15%;
     color:black
+    
 }
   .image-container {
     position: relative; /* set container to a relative position */
