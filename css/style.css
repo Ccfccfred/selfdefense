@@ -17,10 +17,22 @@
       margin: 0;
       background-color: #5e5e5e;
  }
+.container{
+display:grid;
+grid-template-areas: 
+'button1'
+'button2'
+'button3';
+  column-gap: 50px;
+}
+.container>div
 
 header {
   background: #7EA6C4;
-  
+  text-align:center;
+      font-size: 5rem;
+      font-family: 'Jersey 20', sans-serif;
+      src: url('/fonts/Jersey20-Regular.ttf');
   height: auto;
   text-align: center;
   color: black;
@@ -35,6 +47,7 @@ header {
       text-align:center;
       font-size: 5rem;
       font-family: 'Jersey 20', sans-serif;
+      background: #7EA6C4;
       src: url('/fonts/Jersey20-Regular.ttf');
     }
   body{background-color: #5e5e5e;}
@@ -72,11 +85,10 @@ width: 100%;
    border: none; /* remove button border */
    width:100% ; /* set the desired width */
    height: 70px; /* set the desired height */
-   padding: 1%; /* set your desired padding */
+   padding: x;; /* set your desired padding */
    cursor: pointer; /* change mouse cursor on hover */
    font-family: 'hermeneus-one',serif;
 }
-
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 /*@media screen and (max-width: 300px) {
