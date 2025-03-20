@@ -12,6 +12,21 @@
   font-weight: 200;
   font-style: normal;
 }
+
+@media(min-width:801px){
+  .grid-container{
+     display: grid ;
+     grid-template-columns: auto auto auto auto;
+     gap: 10px;
+  }
+}
+@media (max-width: 800px){
+ .grid-container{    
+     display: grid;
+     grid-template-columns: auto auto;
+     gap: 10px;
+ }   
+}
 *{scroll-behavior: smooth;
       font-size: 1.5rem;
       margin: 0;
@@ -43,7 +58,7 @@ header {
 }
 
 
- h1{ 
+ h1{  
       text-align:center;
       font-size: 5rem;
       font-family: 'Jersey 20', sans-serif;
@@ -65,13 +80,16 @@ header {
   .image-container {
     position: relative; /* set container to a relative position */
     margin-left:2% ;
-    margin-right: 40%;
+    margin-right: 25%;
     /* width: 100%; /* set your desired width */
   /*  height: auto; /* set your desired height */
     
 }
+
 img{
-width: 100%;  
+width: 100%;
+height: 100%; 
+margin-right: 50%;
 }
   /*https://www.shecodes.io/athena/9033-how-to-add-a-button-on-an-image-with-html-css*/
   button {
