@@ -64,6 +64,7 @@ header {
       font-family: 'Jersey 20', sans-serif;
       background: #7EA6C4;
       src: url('/fonts/Jersey20-Regular.ttf');
+      
     }
   body{background-color: #5e5e5e;}
    
@@ -75,8 +76,29 @@ header {
     word-spacing: -15%;
     margin-left: 2%;
     color:black
-    
 }
+
+li{ font-family: 'hermeneus-one', serif;
+  src: url('/fonts/HermeneusOne-Regular.ttf');
+  font-size:  1.2rem;
+  line-height: 1.25;
+  word-spacing: -15%;
+  margin-left: 2%;
+  color:black}
+
+
+
+h2{font-family: 'hermeneus-one', serif;
+  src: url('/fonts/HermeneusOne-Regular.ttf');
+  font-size:  2rem;
+  line-height: 1.25;
+  word-spacing: -15%;
+  margin-left: 2%;
+  color:black;
+  text-align: center;
+}
+
+
   .image-container {
     position: relative; /* set container to a relative position */
     margin-left:2% ;
@@ -89,7 +111,7 @@ header {
 img{
 width: 100%;
 height: 100%; 
-margin-right: 50%;
+margin: right 50%;
 }
   /*https://www.shecodes.io/athena/9033-how-to-add-a-button-on-an-image-with-html-css*/
   button {
