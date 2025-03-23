@@ -87,8 +87,9 @@ li{ font-family: 'hermeneus-one', serif;
 
 
 
-h2{font-family: 'hermeneus-one', serif;
-  src: url('/fonts/HermeneusOne-Regular.ttf');
+h2{ font-family: 'Jersey 20', sans-serif;
+  src: url('/fonts/Jersey20-Regular.ttf');
+  font-weight: 100;
   font-size:  2rem;
   line-height: 1.25;
   word-spacing: -15%;
@@ -108,9 +109,16 @@ h2{font-family: 'hermeneus-one', serif;
 
 img{
 width: 100%;
-
-
 }
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  text-align: center; /* Centers text */
+  border-image-width: 50%;
+}
+
+
   /*https://www.shecodes.io/athena/9033-how-to-add-a-button-on-an-image-with-html-css*/
   button {
    position: absolute; /* set button to an absolute position */
