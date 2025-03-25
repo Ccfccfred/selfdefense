@@ -14,27 +14,30 @@
         padding-bottom: .5rem;
     }
      
-    .button1{
-        border: black;
-        color: #7EA6C4;
-        position: fixed;
-       /* padding: 15px 32px;*/
-        text-align: center;
-        text-decoration: none;
-        display:;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        float: right;   
+    .fixed {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    padding: 10px;
+    height: 20px;
+    background-color: #7EA6C4;
+    border-radius:50% ;
     }
+    @media (max-width: 800px){
+    
+        img{
+            width: 100%;
 
+        }
+        
+    }
+        
+   
+   
     </style>
 </head>
 <body>
-    <button class="button1">
-        <a href="#top" > ☝️</a></button>
+        <a href="#top"  class= fixed>↑</a>
     <h1 id="top"> Punches </h1>
         <div style="background-color: #7EA6C4; text-align: center;">
             <a href="index.html" style="background-color: #7EA6C4;">home</a>
@@ -82,8 +85,9 @@
 </ul>
     </div>
     <div class="grid-container">
-        <img  style="width: 65%; padding-left: 10%;"src="images/jab.jpg" alt="Image">
-        <div class="column">  <img style="width: 65%;" src="images/cross.jpg" alt="Image"> </div>
+        <img  src="images/jab.jpg" alt="Image">
+        <div class="column">  
+            <img  src="images/cross.jpg" alt="Image"> </div>
 
     </div>
 </div>
