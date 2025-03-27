@@ -18,16 +18,24 @@
     position: fixed;
     bottom: 2%;
     right: 2%;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
     height: 20px;
     background-color: #7EA6C4;
     border-radius:50% ;
+    
     }
+    .grid-container{
+     display: grid ;
+     grid-template-columns: auto auto ;
+     gap: 10px;
+  }
+
     @media (max-width: 800px){
     
         img{
             width: 100%;
-
         }
         
     }
@@ -37,7 +45,7 @@
     </style>
 </head>
 <body>
-        <a href="#top"  class= fixed>↑</a>
+        <a href="#top"  class= fixed style="align-content: center;">↑</a>
     <h1 id="top"> Punches </h1>
         <div style="background-color: #7EA6C4; text-align: center;">
             <a href="index.html" style="background-color: #7EA6C4;">home</a>
@@ -57,7 +65,7 @@
 <div class="grid-container">
     <div class="column">
 
-    <img style="height: 50%;align-items: center;" src="images/basic-stance-side.jpg" alt="Image">
+    <img style="width: 75%;" src="images/basic-stance-side.jpg" alt="Image">
     </div>
 <ul> 
     
@@ -65,7 +73,7 @@
     <li>keep your hands close to your face but not directly infront of it</li>
     <li> keep your weight balanced and hips towards the directtion your facing</li>
    <h2>
-    <a href="#jab-cross" >next move?</a>
+    <a style="text-align: center;" href="#jab-cross" >next move?</a>
    </h2>
 </ul>
 
@@ -82,19 +90,22 @@
     <li>twist your hips to bring the other hip infront</li>
     <li>extend the other arm straight with the same turning motion to bring yout palm down</li>
     <li>once you have the hang of this try piecing it together</li>
+    <a style="text-align: center; display: flex; flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text */
+    border-image-width: 50%;;"href="#backfist" >next move?</a>
 </ul>
-    </div>
-    <div class="grid-container">
-        <img  src="images/jab.jpg" alt="Image">
-        <div class="column">  
-            <img  src="images/cross.jpg" alt="Image"> </div>
+
+    <div class="column">
+        <img style="width: 50%;" src="images/jab.jpg" alt="Image">
+        <img  style="width: 50%;"src="images/cross.jpg" alt="Image">
 
     </div>
 </div>
 <br>
 <h2 id="backfist">Back Fist</h2>
 <div class="grid-container">
-    <img src=".jpg" alt="Image">
+    <img style="width: 75%; padding-left: 15%;" src="images/elbow-side.jpg" alt="Image">
 <ul>
     <li>start in the basic stance</li>
     <li>point your eldbow towards your target</li>

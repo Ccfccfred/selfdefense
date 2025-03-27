@@ -115,9 +115,8 @@ width: 100%;
   flex-direction: column;
   align-items: center; /* Centers content horizontally */
   text-align: center; /* Centers text */
-  border-image-width: 50%;
+  border-image-width: 75%;
 }
-
 
   /*https://www.shecodes.io/athena/9033-how-to-add-a-button-on-an-image-with-html-css*/
   button {
