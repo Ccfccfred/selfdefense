@@ -6,6 +6,10 @@
     <title>punches</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
+    ul{
+        padding-top: 10%;
+    }
+
     img{
         height: 75%;
         padding-bottom:  .25rem ;
@@ -32,6 +36,16 @@
      gap: 10px;
   }
 
+  @media(min-width:801px){
+    img {
+        width: 75%;
+    }
+  .grid-container{
+     display: grid ;
+     grid-template-columns: auto auto ;
+     gap: 10px;
+  }
+}
     @media (max-width: 800px){
     
         img{
@@ -39,14 +53,16 @@
         }
         
     }
-        
-   
    
     </style>
 </head>
+
+
 <body>
-        <a href="#top"  class= fixed style="align-content: center;">↑</a>
+        <a href="#top"  class= fixed style="align-content: center;text-decoration: none">↑</a>
+
     <h1 id="top"> Punches </h1>
+
         <div style="background-color: #7EA6C4; text-align: center;">
             <a href="index.html" style="background-color: #7EA6C4;">home</a>
             /  <a href="moves.html"style="background-color: #7ea6c4">moves</a>  
@@ -65,10 +81,10 @@
 <div class="grid-container">
     <div class="column">
 
-    <img style="width: 75%;" src="images/basic-stance-side.jpg" alt="Image">
+    <img style="width: 75%" src="images/basic-stance-side.jpg" alt="Image">
     </div>
 <ul> 
-    
+
     <li>start with your least dominate foot infront (around a normal step distance)</li>
     <li>keep your hands close to your face but not directly infront of it</li>
     <li> keep your weight balanced and hips towards the directtion your facing</li>
@@ -95,10 +111,9 @@
     text-align: center; /* Centers text */
     border-image-width: 50%;;"href="#backfist" >next move?</a>
 </ul>
-
     <div class="column">
-        <img style="width: 50%;" src="images/jab.jpg" alt="Image">
-        <img  style="width: 50%;"src="images/cross.jpg" alt="Image">
+        <img style="width: 75%;" src="images/jab.jpg" alt="Image">
+        <img  style="width: 75%;"src="images/cross.jpg" alt="Image">
 
     </div>
 </div>
