@@ -128,7 +128,7 @@ width: 100%;
   /*https://www.shecodes.io/athena/9033-how-to-add-a-button-on-an-image-with-html-css*/
   button {
    position: absolute; /* set button to an absolute position */
-   top: 90%; /* adjust the top position of the button */
+   top: 95%; /* adjust the top position of the button */
    left:0; /* adjust the left position of the button */
    transform: translate(0%, 0%); /* center the button */
    z-index: 2; /* set a higher z-index than the image */

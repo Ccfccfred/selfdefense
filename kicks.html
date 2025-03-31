@@ -3,88 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kicks</title>
+    <title>Kicks</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
+    ul{
+        padding-top: 10%;
+    }
+
+    img{
+        height: 75%;
+        padding-bottom:  .25rem ;
+    }
+    li{
+        padding-bottom: .5rem;
+    }
+     
+    .fixed {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    height: 20px;
+    background-color: #7EA6C4;
+    border-radius:50% ;
+    
+    }
+    .grid-container{
+     display: grid ;
+     grid-template-columns: auto auto ;
+     gap: 10px;
+  }
+
+  @media(min-width:801px){
+    img {
+        width: 60%;
+    }
+  .grid-container{
+     display: grid ;
+     grid-template-columns: auto auto ;
+     gap: 10px;
+  }
+}
+    @media (max-width: 800px){
         img{
-            height: 75%;
-            padding-bottom:  .25rem ;
+            width: 100%;
         }
-        li{
-            padding-bottom: .5rem;
-        }
+    }
+   
     </style>
 </head>
+
+
 <body>
-    <h1> kicks </h1>
-    <div style="background-color: #7EA6C4; text-align: center;">
-        <a href="index.html" style="background-color: #7EA6C4;">home</a>
-        /  <a href="moves.html"style="background-color: #7ea6c4">moves</a>  
-        /  <a style="background-color: #7ea6c4;"> punches</a>  
-        <br><br>
-    <h2 class="figcaption" style="background-color: #7EA6C4;">what to learn <br>
-        <a href="#basic-stance" style="background-color: #7EA6C4;">Basic Stance</a>
-        <a href="#jab-cross"style="background-color: #7EA6C4;">Jab Cross</a>
-        <a href="#backfist"style="background-color: #7EA6C4;">Back fist</a>
-        <a href="#elbow"style="background-color: #7EA6C4;">Elbow</a>
-    </h2>
-    </div>
-       
-<h2 id="basic-stance" style="padding-top: 2rem;">Basic Stance</h2>
+        <a href="#top"  class= fixed style="align-content: center;text-decoration: none">↑</a>
+
+    <h1 id="top"> Kicks </h1>
+
+        <div style="background-color: #7EA6C4; text-align: center;">
+            <a href="index.html" style="background-color: #7EA6C4;">home</a>
+            /  <a href="moves.html"style="background-color: #7ea6c4">moves</a>  
+            /  <a style="background-color: #7ea6c4;"> kicks</a>  
+            <br><br>
+        <h2 class="figcaption" style="background-color: #7EA6C4;">what to learn <br>
+            <a href="#Knee"style="background-color: #7EA6C4;">Knee Strike</a>
+            <a href="#frontkick"style="background-color: #7EA6C4;">Front Kick</a>
+            <a href="#roundkick"style="background-color: #7EA6C4;">Round Kick</a>
+        </h2>
+        </div>
+           
+ <h2 id="basic-stance" style="padding-top: 2rem;">Basic Stance</h2>
 
 <div class="grid-container">
-<div class="column">
-<img src="images/harold-attacks.png" alt="Image">
-</div>
+    <div class="column">
+
+    <img  src="images/basic-stance-side.jpg" alt="Image">
+    </div>
 <ul> 
 
-<li>start with your least dominate foot infront (around a normal step distance)</li>
-<li>keep your hands close to your face but not directly infront of it</li>
-<li> keep your weight balanced and hips towards the directtion your facing</li>
+    <li>start with your least dominate foot infront (around a normal step distance)</li>
+    <li>keep your hands close to your face but not directly infront of it</li>
+    <li> keep your weight balanced and hips towards the directtion your facing</li>
+   <h2>
+    <a style="text-align: center;" href="#Knee" >next move?</a>
+   </h2>
 </ul>
+
 </div>
-<br><br>
-<h2 id="jab-cross">Jab & Cross</h2>
+
+
+<h2 id="Knee">Knee Strike</h2>
 <div class="grid-container">
 <ul>
-<li>start in basic stance</li>
-<li>twist your hips slightly towards your front leg</li>
-<li>while twisting extend the same side arm and twist your wrist so your palm is facing the floor</li>
-<li>bring the extended arm back </li>
-<li>twist your hips to bring the other hip infront</li>
-<li>extend the other arm straight with the same turning motion to bring yout palm down</li>
-<li>once you have the hang of this try piecing it together</li>
+    <li>start in basic stance</li>
+    <li>use your arms to grab your target (if there isn't one use your hands as targets)</li>
+    <li>raise your knee while pushing your hips forward for extra strength</li>
+    <li>for extra strength you can pull your hands in while pushing forward with your knee</li>
+    <a style="text-align: center; display: flex; flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text */
+    border-image-width: 50%;;"href="#frontkick" >next move?</a>
 </ul>
-<div class="column">
-<img src="images/harold-attacks.png" alt="Image">
-<img src="images/harold-attacks.png" alt="Image">
-</div>
+    <div class="column">
+        <img  src="images/knee.jpg" alt="Image">
+    </div>
 </div>
 <br>
-<h2 id="backfist">Back Fist</h2>
+<h2 id="frontkick">Front Kick</h2>
 <div class="grid-container">
-<img src=".jpg" alt="Image">
+    <div class="column">
+    <img  src="images/fk-chamber-no-move.jpg" alt="Image">
+   <img  src="images/fk-extend.jpg" alt="Image">
+</div>
 <ul>
-<li>start in the basic stance</li>
-<li>point your eldbow towards your target</li>
-<li>shift your weight into the front legn while leaning forawrd</li>
-<li>exend your arm hitting your target with the back of your fist</li>
+    <li>start in the basic stance</li>
+    <li>bring your back knee up similar to a knee strike</li>
+    <li>extend your leg straight and hit the target with the ball of your foot</li>
+    <li>as you extend push your hips forward to increase power</li>
+    <li>put it all together and make it faster</li>
+    <a style="text-align: center; display: flex; flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text */
+    border-image-width: 50%;;"href="#roundkick" >next move?</a>
 </ul>
 </div>
 
-<h2 id="elbow">Elbow</h2>
+<h2 id="roundkick">Round Kick</h2>
 <div class="grid-container">
 <ul>
-<li>  </li>
-<li>  </li>
-<li>  </li>
-<li>  </li>
-<li>  </li>
-</ul>
+    <li>start in the basic stance</li>
+    <li>twist your front foot sideways (this will help open up your hips)</li>
+    <li>as you turn your front foot behind you, raise your back leg forward untill your knee and head is aligned</li>
+    <li>extend your leg and hit the target with your instep(top of the foot)</li>
+    <li>once you have these steps pick up the speed and make it one smooth turn</li>
+    
+    <h2 class= "column"> 
+        <a href="punches.html">learn some punches</a>
+        <a href="combos.html">try some combos?</a>
+
+    </ul>
+
 <div class="column">
-<img src=".jpg" alt="Image">
+    <img src="images/half-turned-foot-rk.jpg" alt="Image">
+    <img src="images/chamber-rk.jpg" alt="Image">
+    <img src="images/rk-extend.jpg" alt="Image">
 
-</div>
+</div >
 
+
+</h2>
 </body>
 </html>

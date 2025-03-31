@@ -6,6 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Self Defense</title>
         <link rel="stylesheet" href="css/style.css">
+        <style>
+             button{
+   position: absolute; /* set button to an absolute position */
+   top: 60%; /* adjust the top position of the button */
+   left:0; /* adjust the left position of the button */
+   transform: translate(0%, 0%); /* center the button */
+   z-index: 2; /* set a higher z-index than the image */
+   background-color: #7EA6C4; /* set your desired background color */
+   color: #fff; /* set your desired text color */
+   border: none; /* remove button border */
+   width:90% ; /* set the desired width */
+   height: 70px; /* set the desired height */
+   padding: x;; /* set your desired padding */
+   cursor: pointer; /* change mouse cursor on hover */
+   font-family: 'hermeneus-one',serif;
+             }
+        </style>
     </head>
     <body>
        <h1>Moves </h1>
@@ -13,10 +30,10 @@
             /moves</div> 
         
 
-        <p>Choose what you want to learn or refresh on</p>
-      <section class="grid-container">
+        <p style="text-align: center;">Choose what you want to learn or refresh on</p>
+      <section class="grid-container" style="margin-left: 20%">
         <div class="image-container">
-        <img src="images/harold-attacks.png" alt="Image" style="height: 100%;">
+        <img src="images/jab.jpg" alt="Image" style="width: 90%; height: 60%;">
         <a href="punches.html"> 
         <button class="button">
            punches
@@ -24,7 +41,7 @@
         </a>
     </div>
         <div class="image-container">
-        <img src="images/harold-attacks.png" alt="Image"style="height: 100%;">
+        <img src="images/fk-extend.jpg" alt="Image"style="width: 90%; height: 60%;">
         <a href="kicks.html"> 
         <button class="button">
             kicks
