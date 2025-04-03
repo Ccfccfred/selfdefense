@@ -109,6 +109,8 @@ h2{ font-family: 'Jersey 20', sans-serif;
 
 img{
 width: 100%;
+height: auto;
+padding: .25rem;
 }
 .column {
   display: flex;
