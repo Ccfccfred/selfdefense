@@ -28,6 +28,10 @@ Alexis Faudot, Rémi Forte, Morgane Pierson, Rafael Ribas, Tanguy Vanlaeys, Rosa
      grid-template-columns: auto auto;
      gap: 10px;
  }   
+
+ .vid{
+  width: 100%;
+ }
 }
 
 *{scroll-behavior: smooth;
