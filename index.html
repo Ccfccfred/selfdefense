@@ -7,6 +7,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title >Self Defense</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        @media(min-width:801px){
+  .grid-container{
+     display: grid ;
+     grid-template-columns: auto auto auto;
+     gap: 10px;
+  }
+  img{
+    width: 100%;
+  }
+}button{
+    position: absolute; 
+    top: 90%; 
+    left:0; 
+    transform: translate(0%, 0%); 
+    z-index: 2; 
+    background-color: #7EA6C4; 
+    color: #fff; 
+    border: none;
+    width: 100% ; 
+    height:fit-content; 
+    padding: x;
+    padding-bottom: 2%; 
+    cursor: pointer; 
+    font-family: 'hermeneus-one',serif;
+ }
+    </style>
     </head>
 
 
@@ -20,26 +47,26 @@
       <!---https://www.shecodes.io/athena/9033-how-to-add-a-button-on-an-image-with-html-css-->
       <div class="grid-container"> 
       <div class="image-container" >
-            <img src="images/yoi-me-mat.png" alt="Image" style="height: 100%;" >
+            <img src="images/dithered-me-mat-yoi.jpg" alt="Image" style="height: 100%;" >
             <a href="moves.html"> 
             <button class="button">
                 Moves
             </button>
         </a>
         </div>
-        <div class="image-container" style="height: 100%;">
-            <img src="images/mat-me-mid-match.png" alt="Image" style="height: 100%;">
+        <div class="image-container">
+            <img src="images/dithered-me-mat-action.jpg" alt="Image" >
             <a href="combos.html"> 
             <button class="button">
-            combos
+            Combos
             </button >
         </a>
         </div>
         <div class="image-container">
-          <img src="images/hands-on-belt-anup-kumar.jpg"Image style="height: 100%;">
+          <img src="images/dithered-hands-on-belt-anup-kumar.jpg" alt="Image" style="height: 100%;">
           <a href="selfawarness.html"> 
           <button class="button">
-              self awarness
+              Self awarness
           </button>
       </a>
       </div>   

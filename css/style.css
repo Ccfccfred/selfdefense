@@ -18,16 +18,22 @@ Alexis Faudot, Rémi Forte, Morgane Pierson, Rafael Ribas, Tanguy Vanlaeys, Rosa
 @media(min-width:801px){
   .grid-container{
      display: grid ;
-     grid-template-columns: auto auto auto auto;
+     grid-template-columns: auto auto;
      gap: 10px;
   }
 }
 @media (max-width: 800px){
  .grid-container{    
      display: grid;
-     grid-template-columns: auto auto;
+     grid-template-columns: auto;
      gap: 10px;
+     
  }   
+ img{
+  width: 100%;
+  height: auto;
+  padding-bottom: .25rem;
+  }
 }
 
 *{scroll-behavior: smooth;
@@ -53,13 +59,18 @@ header {
   padding-top: 2%;
 }
 
-
+.breadcrumbs{
+  background-color: #7EA6C4;
+  text-align: center;
+  color: whitesmoke;
+}
 h1{  
       font-family: "Jersey 20", sans-serif;
   font-weight: 200;
       text-align:center;
       font-size: 5rem; 
       margin-left: 0;
+      color: whitesmoke;
       background: #7EA6C4;
       src: url('/fonts/Jersey20-Regular.ttf');
 }
@@ -74,7 +85,7 @@ h1{
     line-height: 1.25;
     word-spacing: -15%;
     margin-left: 2%;
-    color:black
+    color:whitesmoke
 }
 
 li{ font-family: 'hermeneus-one', serif;
@@ -83,9 +94,13 @@ li{ font-family: 'hermeneus-one', serif;
   line-height: 1.25;
   word-spacing: -15%;
   margin-left: 2%;
-  color:black}
+  margin-right: 5%;
+  color:whitesmoke
+}
 
-
+a{
+  color: darkred;
+}
 
 h2{ font-family: 'Jersey 20', sans-serif;
   src: url('/fonts/Jersey20-Regular.ttf');
@@ -94,48 +109,44 @@ h2{ font-family: 'Jersey 20', sans-serif;
   line-height: 1.25;
   word-spacing: -15%;
   margin-left: 2%;
-  color:black;
+  color:whitesmoke;
   text-align: center;
 }
 
 
   .image-container {
-    position: relative; /* set container to a relative position */
-    margin-left:2% ;
+    position: relative; /* set container to a relative position */;
+    margin-right: 2%;
     /* width: 100%; /* set your desired width */
   /*  height: auto; /* set your desired height */
     
 }
 
-img{
-width: 100%;
-height: auto;
-padding: .25rem;
-}
+
 .column {
   display: flex;
   flex-direction: column;
   align-items: center; /* Centers content horizontally */
   text-align: center; /* Centers text */
-  border-image-width: 75%;
+  border-image-width: 100%;
 }
 
   /*https://www.shecodes.io/athena/9033-how-to-add-a-button-on-an-image-with-html-css*/
-  button {
-   position: absolute; /* set button to an absolute position */
-   top: 95%; /* adjust the top position of the button */
-   left:0; /* adjust the left position of the button */
-   transform: translate(0%, 0%); /* center the button */
-   z-index: 2; /* set a higher z-index than the image */
-   background-color: #7EA6C4; /* set your desired background color */
-   color: #fff; /* set your desired text color */
-   border: none; /* remove button border */
-   width:100% ; /* set the desired width */
-   height: 70px; /* set the desired height */
-   padding: x;; /* set your desired padding */
-   cursor: pointer; /* change mouse cursor on hover */
-   font-family: 'hermeneus-one',serif;
-}
+  button{
+    position: absolute; /* set button to an absolute position */
+    top: 90%; /* adjust the top position of the button */
+    left:0; /* adjust the left position of the button */
+    transform: translate(0%, 0%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: #7EA6C4; /* set your desired background color */
+    color: #fff; /* set your desired text color */
+    border: none; /* remove button border */
+    width: 100% ; /* set the desired width */
+    height:fit-content; /* set the desired height */
+    padding: x;; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+    font-family: 'hermeneus-one',serif;
+ }
 
 /* slideshow container
 https://www.w3schools.com/howto/howto_js_slideshow.asp*/
@@ -278,10 +289,10 @@ slider img{
   position: fixed;
   right: 0.5%;
   bottom: 1%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 3%;
+  height: 6%;
   background-color: #7EA6C4;
   filter: drop-shadow(1px,1x,10px,purple);
   text-align: center;
@@ -296,9 +307,6 @@ video{
   width: 75%;
 }
 
-a{
-  color: darkblue;
-}
 
 /*this is a comment*/
 

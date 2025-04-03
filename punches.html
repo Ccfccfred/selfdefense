@@ -6,39 +6,35 @@
     <title>punches</title>
     <link rel="stylesheet" href="css/style.css">
     <style>
-    ul{
-        padding-top: 10%;
-    }
-
-    li{
-        padding-bottom: .5rem;
-    }
-     
+    
     .fixed {
     position: fixed;
-    bottom: 2%;
-    right: 2%;
-    padding-left: 10px;
+    bottom: 100%;
+    right: 100%;
+    padding-left: 100px;
     padding-right: 10px;
     padding-bottom: 25px;
-    height: 20px;
+    height: 10%;
     background-color: #7EA6C4;
     border-radius:50% ;
-    
+    z-index: 5;
     }
-    .grid-container{
-     display: grid ;
-     grid-template-columns: auto auto ;
-     gap: 10px;
-  }
-
+   li{ font-family: 'hermeneus-one', serif;
+  src: url('/fonts/HermeneusOne-Regular.ttf');
+  font-size: 1.2rem;
+  line-height: 1.25;
+  word-spacing: -15%;
+  margin-left: 2%;
+  color:whitesmoke
+}
   @media(min-width:801px){
     img {
-        width: 60%;
+        width: 50%;
+        height: auto;
     }
   .grid-container{
      display: grid ;
-     grid-template-columns: auto auto ;
+     grid-template-columns: auto auto;
      gap: 10px;
   }
 }
@@ -58,7 +54,7 @@
 
     <h1 id="top"> Punches </h1>
 
-        <div style="background-color: #7EA6C4; text-align: center;">
+        <div class="breadcrumbs">
             <a href="index.html" style="background-color: #7EA6C4;">home</a>
             /  <a href="moves.html"style="background-color: #7ea6c4">moves</a>  
             /  <a style="background-color: #7ea6c4;"> punches</a>  
@@ -74,7 +70,6 @@
 
 <div class="grid-container">
     <div class="column">
-
     <img  src="images/basic-stance-side.jpg" alt="Image">
     </div>
 <ul> 
@@ -88,9 +83,15 @@
 </ul>
 
 </div>
-
+<br/>
+<br/>
+<br/>
+<br/>
 
 <h2 id="jab-cross">Jab & Cross</h2>
+<br/>
+<br/>
+<br/>
 <div class="grid-container">
 <ul>
     <li>start in basic stance</li>
@@ -106,10 +107,11 @@
     border-image-width: 50%;;"href="#backfist" >next move?</a>
 </ul>
     <div class="column">
+
         <img  src="images/jab.jpg" alt="Image">
         <img  src="images/cross.jpg" alt="Image">
-
     </div>
+
 </div>
 <br>
 <h2 id="backfist">Back Fist</h2>
@@ -117,7 +119,7 @@
     <div class="column">
     <img  src="images/bf-chamber.jpg" alt="Image">
    <img  src="images/bf-extend.jpg" alt="Image">
-</div>
+    </div>
 <ul>
     <li>start in the basic stance</li>
     <li>point your eldbow towards your target</li>
@@ -129,7 +131,7 @@
     border-image-width: 50%;;"href="#elbow" >next move?</a>
 </ul>
 </div>
-
+<br/><br/><br/>
 <h2 id="elbow">Elbow</h2>
 <div class="grid-container">
 <ul>
@@ -139,9 +141,9 @@
     <li>try to reach as far forward has you can with your elbow</li>
     <li>for more power lift your back heel off the floor for more impact</li>
 </ul>
-<div class="column">
-    <img src="images/elbow-side.jpg" alt="Image">
-
+    <div class="column">
+     <img src="images/elbow-side.jpg" alt="Image">
+    </div>
 </div>
 <h2 class="column">
     <a href="kicks.html"> learn some kicks?</a>
