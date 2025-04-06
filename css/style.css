@@ -122,6 +122,30 @@ h2{ font-family: 'Jersey 20', sans-serif;
     
 }
 
+.footer{
+  background: #928276;
+  text-align:center;
+      font-family: 'Jersey 20', sans-serif;
+      src: url('/fonts/Jersey20-Regular.ttf');
+      width: 100%;
+  height: auto;
+  text-align: center;
+  color: black;
+  padding: 2%;
+
+}
+
+.footertext{ 
+  font-family: 'Jersey 20', sans-serif;
+  src: url('/fonts/Jersey20-Regular.ttf');
+  font-weight: 100;
+  font-size:  2rem;
+  line-height: 1.25;
+  word-spacing: -15%;
+  margin-left: 2%;
+  color:whitesmoke;
+  text-align: center;}
+
 
 .column {
   display: flex;
@@ -170,10 +194,10 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp*/
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 32px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 32px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -210,7 +234,7 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp*/
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* The dots/bullets/indicators 
 .dot {
   cursor: pointer;
   height: 15px;
@@ -225,12 +249,12 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp*/
 .active, .dot:hover {
   background-color: #717171;
 }
-
-/* Fading animation */
+*/
+/* Fading animation 
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
-}
+}*/
 
 @keyframes fade {
   from {opacity: .4}
@@ -254,7 +278,7 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp*/
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   box-shadow: 0 1.5rem 3rem -0.75 hsla(0,0%,0%,0.25);
-  border-radius: 0.5rem;
+  border-radius: .5rem;
 }
 
 slider img{
@@ -284,7 +308,7 @@ slider img{
 .slider-nav a:hover {
   opacity: 1;
 }
-
+/*back to top button*/
 .backtotop{
   position: fixed;
   right: 0.5%;
