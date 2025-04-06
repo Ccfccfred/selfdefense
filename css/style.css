@@ -21,18 +21,27 @@ Alexis Faudot, Rémi Forte, Morgane Pierson, Rafael Ribas, Tanguy Vanlaeys, Rosa
      grid-template-columns: auto auto;
      gap: 10px;
   }
+  video{
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
+  }
 }
 @media (max-width: 800px){
  .grid-container{    
      display: grid;
      grid-template-columns: auto;
      gap: 10px;
-     
  }   
  img{
   width: 100%;
   height: auto;
   padding-bottom: .25rem;
+  }
+  video{
+    padding-top: 5%;
+    width: 50%;
+    height: auto;
   }
 }
 
@@ -324,12 +333,7 @@ slider img{
   text-decoration: none;
 }
 
-video{
-  padding-top: 5%;
-  padding-left: 15rem;
-  align-items: center;
-  width: 75%;
-}
+
 
 
 /*this is a comment*/
